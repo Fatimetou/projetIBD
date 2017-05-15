@@ -1,0 +1,222 @@
+
+body{
+background: #0000; */
+  /*font-family: 'Segoe UI';*/
+}
+
+
+
+
+    .ins-shell-head-logo, .ins-shell-head-lbl{
+      display : inline-block;
+      vertical-align: middle;
+    }
+
+    .ins-shell-head-logo img{
+      width: 150px;
+      height: 100px;
+    }
+
+    .ins-shell-head-logo{
+      width  : 150px;
+    }
+
+    .ins-shell-head-lbl{
+      width: 550px;
+    }
+
+    .ins-shell-head-lbl h3{
+      font-size: 26px;
+    
+      color: #444;
+      font-weight: bolder;
+      font-family: 'Segoe UI' !important;
+      /* text-shadow: 1px 1px 1px #689F38; */
+}
+    
+    .ins-shell-main-head a{
+    text-decoration: none;
+    color: #fff;
+    /* text-shadow: 1px 1px 1px #ccc; */
+    width: 900px;
+    margin: auto;
+}
+    .ins-shell-main-head a span{
+      display: inline-block;
+      vertical-align: middle;
+      height: 45px;
+      line-height: 45px;
+    }
+    .ins-shell-main-head a .Ion{
+      font-size: 27px;
+      padding: 0px 15px;
+      border-radius: 50%;
+      border: 3px solid;
+    
+      margin-right: 10px;
+}
+    .ins-shell-main-head a .title{
+      font-size: 15px;
+    
+      font-weight: bold;
+}
+
+    .ins-shell-main .p-title{
+      /* height: 50px; */
+      /* line-height: 50px; */
+      border-bottom: 1px solid #eee;
+      margin: 0 0px 25px 0;
+    
+      padding: 10px 0;
+}
+
+    .ins-shell-main .p-title .bulle, 
+    .ins-shell-main .p-title .bulleRed, 
+    .ins-shell-main .p-title .texte{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .ins-shell-main .p-title .texte{
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 20px;
+}
+    .ins-shell-main .p-title .bulle{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #4CAF50;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #fff;
+    background: #4CAF50;
+    }
+
+    .bulleRed{
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border: 1px solid #4CAF50;
+      border-radius: 50%;
+      margin-right: 10px;
+      color: #fff;
+      background: red;
+    }
+
+    .ins-shell-main-head{
+    /* border-bottom: 1px solid orange; */    
+    padding: 5px 0px;
+    width: 900px;
+    margin: auto;
+    color: #fff;
+    /* background-color: green; */
+}
+
+
+    .ins-shell-main-cont{
+      width: 600px;    margin: auto;
+      font-family: 'Segoe UI' !important;
+    }
+
+    .ins-shell-main-cont h3{
+      font-size: 24px;
+    }
+
+    .ins-shell-main-cont h3.robot{
+      font-size: 15px;
+      font-style: italic;
+    }
+
+    .ins-shell-main-cont p{
+      font-size: 17px;
+    }
+
+    .ins-shell-main-cont form{
+
+    }
+
+    .ins-shell-main-cont form input, 
+    .ins-shell-main-cont form select{
+      border-radius : 0;
+      border : 2px solid #444;
+    }
+
+    #mycaptcha{
+      margin: 10px 0;
+    }
+
+    #error-msg{
+      color : red;
+    }
+
+    .has-error .form-control{
+      box-shadow: 0px 0px 10px #a94442;
+    }
+
+    .error{
+       display : none; 
+      
+      position   : absolute;
+      top: -10px;
+      right: 15px;
+      /* min-height : 15em; */
+      min-width: 100px;
+      overflow-x : hidden;
+        
+      color: red;
+      border: 2px solid red;
+      text-align: center;
+    
+      padding: 0 5px;
+      z-index: 1;
+    }
+
+    #paiement_links {
+        margin: 35px 0;
+        /* display: block; */
+        text-align: center;
+    }
+
+    div.table {
+        display: table;
+        width: 100%;
+        background: #fff;
+        border-radius: 5px;
+        /* margin-bottom: 10px; */
+        /* padding: 5px; */
+        /* height: 100%; */
+        /* position: absolute; */
+        /* top: 4px; */
+        /* left: 4px; */
+        /* right: 4px; */
+        /* bottom: 0; */
+    }
+
+    #paiement_links .cell img {
+        width: 80px;
+        height: 70px;
+        padding: 0 0;
+        cursor: pointer;
+    }
+
+    #mode_logo{
+      display: inline-block;
+      margin: 30px;
+    }
+
+    #paiement_links .cell img:hover {
+      box-shadow: 0px 0px 6px #000;
+    }
+
+    .frai_form {
+      display: inline-block;
+      width: 49%;
+    }
+
+    ol, ul, dl {
+        list-style-position: inside;
+    }
+
+    
